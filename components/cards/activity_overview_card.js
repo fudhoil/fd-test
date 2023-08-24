@@ -3,7 +3,6 @@ import React from 'react';
 
 const ActivityOverviewCard = ({ data }) => {
     return (
-
         <div className="flex flex-row gap-4 items-center justify-between">
             {/* TODO: create list of activities */}
             <div div className='relative flex h-10' >

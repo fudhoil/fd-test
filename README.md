@@ -16,9 +16,17 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## TODO
 
-_Charts_
+_Main content/Card_
 
 - [x] Total Display
+- [x] Activity Overview
+- [x] Client Retention Card
+- [x] Earnings Card
+- [x] Orders Card
+- [x] Profit Card
+
+_Chart_
+
 - [x] Activity Overview
 - [ ] Client Retention Chart
 - [x] Earnings Chart
