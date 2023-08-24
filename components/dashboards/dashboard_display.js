@@ -15,11 +15,12 @@ const DashboardDisplay = () => {
                 <div className="col-span-full">
                     <div className='flex flex-wrap gap-3'>
                         <TotalDisplay
-                            icon={<img src="/icons/trophy.svg" alt="total sales" />}
-                            title="Total Sales"
-                            value="$66,053" />
-                        <TotalDisplay
                             icon={<img src="/icons/calendar.svg" alt="total sales" />}
+                            title="Total Sales"
+                            value="$66,053"
+                            type="primary" />
+                        <TotalDisplay
+                            icon={<img src="/icons/trophy.svg" alt="total sales" />}
                             title="Total Sales"
                             value="$66,053" />
                         <TotalDisplay
