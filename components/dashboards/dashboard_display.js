@@ -37,7 +37,7 @@ const DashboardDisplay = () => {
                     </div>
                 </div>
 
-                <div className="col-span-3 row-start-2 col-start-1">
+                <div className="col-span-5 md:col-span-3 row-start-2 col-start-1">
                     <div className="flex flex-wrap gap-3">
                         <EarningChart />
                         <OrderChart />
@@ -45,7 +45,7 @@ const DashboardDisplay = () => {
                     </div>
                     <ClientRetentionChart />
                 </div>
-                <div className="row-start-2 col-start-4 row-span-2 col-span-2">
+                <div className="row-span-2 col-span-2 md:row-start-2 md:col-start-4">
                     <ActivityOverview />
                 </div>
             </div>
