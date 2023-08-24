@@ -60,7 +60,7 @@ const ActivityOverview = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col gap-8 items-start overflow-hidden my-4">
+            <div className="flex flex-col gap-8 items-start overflow-hidden my-2 py-7">
                 {data.map((item, index) => (
                     <ActivityOverviewCard data={item} key={item?.id} />
                 ))}
