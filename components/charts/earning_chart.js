@@ -20,12 +20,12 @@ const EarningChart = () => {
     }, [selectedWeek]);
 
     return (
-        <div className="bg-[#1C243F] rounded-lg p-[20px] gap-[25px] flex flex-col flex-grow justify-between min-w-[285px] inter h-fit">
+        <div className="bg-[#1C243F] rounded-lg p-[20px] gap-[25px] flex flex-col flex-grow justify-between max-w-[285px] inter h-fit">
             <div className="flex flex-row gap-2 justify-between items-center">
                 <p className="text-[#fff] text-[16px] font-bold">Earnings</p>
                 {/* dropdown */}
                 <DropdownMenu.Root>
-                    <DropdownMenu.Trigger className="flex flex-row gap-1 items-center" onOpenChange={(open) => open ? setSelectedWeek('This Week') : setSelectedWeek('Last Week')}>
+                    <DropdownMenu.Trigger className="flex flex-row gap-1 items-center outline-none" onOpenChange={(open) => open ? setSelectedWeek('This Week') : setSelectedWeek('Last Week')}>
                         <p className="text-[#4C5A8B] text-[11px]">{selectedWeek}</p>
                         <img src="/icons/arrow-down.svg" alt="arrow-down" className="ml-auto" />
                     </DropdownMenu.Trigger>
@@ -33,19 +33,19 @@ const EarningChart = () => {
                     <DropdownMenu.Portal>
                         <DropdownMenu.Content className='bg-[#2E4B85] rounded-lg flex flex-col overflow-hidden mt-2 min-w-[129px] max-h-[96px]'>
                             <DropdownMenu.Group className="flex flex-col overflow-y-auto">
-                                <DropdownMenu.Item className="flex flex-row px-2 py-1 hover:bg-[#4E6799] hover:cursor-pointer gap-2 items-center justify-between" onSelect={() => setSelectedWeek('This Week')}>
+                                <DropdownMenu.Item className="flex flex-row px-2 py-1 hover:bg-[#4E6799] hover:cursor-pointer gap-2 items-center justify-between outline-none" onSelect={() => setSelectedWeek('This Week')}>
                                     <p className="text-[#fff] text-[14px]">This Week</p>
                                     {selectedWeek === 'This Week' &&
                                         <div className='h-[15px] w-[6.45px] rounded-full bg-[#1C243F]' />
                                     }
                                 </DropdownMenu.Item>
-                                <DropdownMenu.Item className="flex flex-row px-2 py-1 hover:bg-[#4E6799] hover:cursor-pointer gap-2 items-center justify-between" onSelect={() => setSelectedWeek('2 Weeks Ago')}>
+                                <DropdownMenu.Item className="flex flex-row px-2 py-1 hover:bg-[#4E6799] hover:cursor-pointer gap-2 items-center justify-between outline-none" onSelect={() => setSelectedWeek('2 Weeks Ago')}>
                                     <p className="text-[#fff] text-[14px]">2 Weeks Ago</p>
                                     {selectedWeek === '2 Weeks Ago' &&
                                         <div className='h-[15px] w-[6.45px] rounded-full bg-[#1C243F]' />
                                     }
                                 </DropdownMenu.Item>
-                                <DropdownMenu.Item className="flex flex-row px-2 py-1 hover:bg-[#4E6799] hover:cursor-pointer gap-2 items-center justify-between" onSelect={() => setSelectedWeek('Last Month')}>
+                                <DropdownMenu.Item className="flex flex-row px-2 py-1 hover:bg-[#4E6799] hover:cursor-pointer gap-2 items-center justify-between outline-none" onSelect={() => setSelectedWeek('Last Month')}>
                                     <p className="text-[#fff] text-[14px]">Last Month</p>
                                     {selectedWeek === 'Last Month' &&
                                         <div className='h-[15px] w-[6.45px] rounded-full bg-[#1C243F]' />

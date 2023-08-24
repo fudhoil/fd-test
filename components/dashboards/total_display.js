@@ -9,7 +9,7 @@ const TotalDisplay = ({
     value,
 }) => {
     return (
-        <div className="bg-[#1C243F] rounded-lg px-[32px] py-[27px] flex flex-row flex-grow justify-between min-w-fit gap-2 inter h-fit">
+        <div className="bg-[#1C243F] rounded-lg px-[32px] py-[27px] flex flex-row flex-grow justify-between min-w-fit gap-2 inter min-h-fit max-h-[191px]">
             {/* icon */}
             {icon}
             <div className="flex flex-col gap-2">
