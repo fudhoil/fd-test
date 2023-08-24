@@ -16,6 +16,7 @@ const ClientRetentionChart = () => {
                     </div>
                     <div className="flex flex-row gap-2 items-center">
                         {/* TODO: chart */}
+                        here is the chart
                     </div>
                 </div>
                 {/* line */}
@@ -31,6 +32,13 @@ const ClientRetentionChart = () => {
                         <p className="text-[#fff] text-[31.63px] font-bold">$842.98</p>
                         <p className="text-[#828282] text-[9.42px] font-medium">Latest Month Balance $426.20k</p>
                     </div>
+
+                    {/* TODO: chart */}
+                    here is the chart
+
+                    <button className="flex flex-row items-center rounded-[4px] inter w-[118.32px] h-[32.87px] bg-[#0BB885] gap-[7.15px] justify-center">
+                        <p className="text-[#fff] text-[12.51px] font-bold space-x-[0.36px]">View All</p>
+                    </button>
                 </div>
             </div>
         </div>
