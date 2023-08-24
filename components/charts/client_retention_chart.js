@@ -21,7 +21,7 @@ const ClientRetentionChart = () => {
                 </div>
                 {/* line */}
                 <div className="hidden lg:block w-[1px] h-full bg-[#2E4B85]"></div>
-                <div className="flex flex-col gap-4 items-center justify-between w-fit py-[18.97px]">
+                <div className="flex flex-col gap-4 items-center justify-between w-fit py-[18.97px] px-5">
                     {/* TODO: dropdown */}
                     <div className="flex flex-row gap-2 text-[#0BB885]">
                         <p className="text-[10.72px] font-semibold
