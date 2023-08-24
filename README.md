@@ -29,6 +29,6 @@ _Chart_
 
 - [x] Activity Overview
 - [ ] Client Retention Chart
-- [x] Earnings Chart
+- [x] Earnings Chart (PRIORITAS)
 - [ ] Orders Chart
 - [ ] Profit Chart
