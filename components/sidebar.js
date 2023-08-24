@@ -2,7 +2,7 @@ import React from 'react';
 
 const Sidebar = () => {
     return (
-        <div className="bg-[#151A2E] min-h-screen hidden lg:flex lg:flex-col">
+        <div className="bg-[#151A2E] min-h-screen flex flex-col">
             <div className="bg-[#171E37] overflow-hidden h-full w-[250px]">
                 <div className="flex flex-col gap-3 p-[20px]">
                     <div className="flex flex-row gap-3">

@@ -1,7 +1,9 @@
 const OrderChart = () => {
     return (
         // TODO: change this img to real Chart
-        <img src="/cards/growth-card.png" alt="growth" className="max-w-[199px] -mx-5 -mt-5" />
+        <div className='bg-[#1C243F] rounded-lg flex flex-row flex-grow justify-between max-w-[150px] gap-2 inter'>
+            <img src="/cards/growth-card.png" alt="growth" className="w-full" />
+        </div>
     );
 }
 

@@ -20,7 +20,7 @@ const EarningChart = () => {
     }, [selectedWeek]);
 
     return (
-        <div className="bg-[#1C243F] rounded-lg p-[20px] gap-[25px] flex flex-col flex-grow justify-between max-w-[285px] inter h-fit">
+        <div className="bg-[#1C243F] rounded-lg p-[20px] gap-[25px] flex flex-col flex-grow justify-between max-w-[285px] inter min-h-[191px]">
             <div className="flex flex-row gap-2 justify-between items-center">
                 <p className="text-[#fff] text-[16px] font-bold">Earnings</p>
                 {/* dropdown */}
@@ -56,7 +56,7 @@ const EarningChart = () => {
                     </DropdownMenu.Portal>
                 </DropdownMenu.Root>
             </div>
-            <div className="flex flex-row gap-6 justify-between">
+            <div className="flex flex-row gap-6 justify-between m-auto">
                 {/* charts */}
                 <div className="bg-[#1C243F] rounded-lg w-[128.75px] relative">
                     {/* percentage circle */}

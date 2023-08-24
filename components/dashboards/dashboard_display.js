@@ -12,7 +12,7 @@ const DashboardDisplay = () => {
         <DashboardLayout>
             {/* <div className="flex flex-wrap gap-3 p-4"> */}
             <div className="grid grid-cols-3 lg:grid-cols-5 gap-3 p-4 grid-flow-dense">
-                <div className="col-span-5">
+                <div className="col-span-full">
                     <div className='flex flex-wrap gap-3'>
                         <TotalDisplay
                             icon={<img src="/icons/trophy.svg" alt="total sales" />}
@@ -37,7 +37,7 @@ const DashboardDisplay = () => {
                     </div>
                 </div>
 
-                <div className="col-span-5 md:col-span-3 row-start-2 col-start-1">
+                <div className="col-span-full lg:col-span-3 lg:row-start-2 lg:col-start-1">
                     <div className="flex flex-wrap gap-3">
                         <EarningChart />
                         <OrderChart />
@@ -45,7 +45,7 @@ const DashboardDisplay = () => {
                     </div>
                     <ClientRetentionChart />
                 </div>
-                <div className="row-span-2 col-span-2 md:row-start-2 md:col-start-4">
+                <div className="col-span-full lg:row-start-2 lg:col-start-4">
                     <ActivityOverview />
                 </div>
             </div>
