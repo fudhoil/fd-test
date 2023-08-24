@@ -44,7 +44,9 @@ const DashboardDisplay = () => {
                         <OrderChart />
                         <ProfitCard />
                     </div>
-                    <ClientRetentionChart />
+                    <div className="flex flex-wrap gap-3">
+                        <ClientRetentionChart />
+                    </div>
                 </div>
                 <div className="col-span-full lg:row-start-2 lg:col-start-4">
                     <ActivityOverview />

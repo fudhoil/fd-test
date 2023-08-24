@@ -3,9 +3,9 @@ import React from 'react';
 const ClientRetentionChart = () => {
     return (
         // TODO: change this img to real Chart
-        <div className='bg-[#1C243F] px-[21.22px] rounded-lg flex flex-row flex-grow justify-between max-w-full gap-2 inter mt-3'>
+        <div className='bg-[#1C243F] px-[21.22px] rounded-lg flex flex-row flex-grow justify-between max-w-full gap-2 inter mt-3 h-full'>
             {/* <img src="/cards/client-retention-card.png" alt="client retention" className="max-w-full" /> */}
-            <div className="flex flex-row gap-5 w-full justify-between">
+            <div className="flex flex-col lg:flex-row gap-5 w-full justify-between">
                 <div className="flex flex-col gap-2 w-full py-[18.97px]">
                     <div className="flex flex-row gap-2 items-center justify-between w-full">
                         <p className="text-[#fff] text-[16.6px] font-medium">Client Retention</p>
@@ -20,7 +20,7 @@ const ClientRetentionChart = () => {
                     </div>
                 </div>
                 {/* line */}
-                <div className="w-[1px] h-full bg-[#2E4B85]"></div>
+                <div className="hidden lg:block w-[1px] h-full bg-[#2E4B85]"></div>
                 <div className="flex flex-col gap-4 items-center justify-between w-fit py-[18.97px]">
                     {/* TODO: dropdown */}
                     <div className="flex flex-row gap-2 text-[#0BB885]">
