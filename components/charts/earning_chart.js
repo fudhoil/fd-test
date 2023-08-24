@@ -58,6 +58,7 @@ const EarningChart = () => {
             </div>
             <div className="flex flex-row gap-6 justify-between m-auto">
                 {/* charts */}
+                {/* TODO: please use library for this */}
                 <div className="bg-[#1C243F] rounded-lg w-[128.75px] relative">
                     {/* percentage circle */}
                     <div style={{

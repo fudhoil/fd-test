@@ -1,4 +1,4 @@
-import DashboardLayout from '@/layouts/dashboard_layout';
+import ContentLayout from '@/layouts/content_layout';
 import React from 'react';
 import TotalDisplay from './total_display';
 import EarningChart from '../charts/earning_chart';
@@ -9,7 +9,7 @@ import ClientRetentionChart from '../charts/client_retention_chart';
 
 const DashboardDisplay = () => {
     return (
-        <DashboardLayout>
+        <ContentLayout>
             {/* <div className="flex flex-wrap gap-3 p-4"> */}
             <div className="grid grid-cols-3 lg:grid-cols-5 gap-3 p-4 grid-flow-dense">
                 <div className="col-span-full">
@@ -49,7 +49,7 @@ const DashboardDisplay = () => {
                     <ActivityOverview />
                 </div>
             </div>
-        </DashboardLayout>
+        </ContentLayout>
     );
 }
 
